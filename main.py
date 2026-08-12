@@ -27,7 +27,7 @@ for index,row in birthdays.iterrows():
 
 
     if birth_month==current_month and birth_day == current_day:
-        with open(f"letter_templates\letter_{random.randint(1,3)}.txt") as letter_file:
+        with open(f"letter_templates/letter_{random.randint(1,3)}.txt") as letter_file:
             letter_lines = letter_file.read()
 
             letter_for_name = letter_lines.replace("[NAME]", name_of_person)
