@@ -43,4 +43,8 @@ jobs:
           # Add more secrets in Settings > Secrets > Actions
           MY_EMAIL: ${{ secrets.MY_EMAIL }}
           MY_PASSWORD: ${{ secrets.MY_PASSWORD }}
+          MY_WEATHER_APP_ID: ${{ secrets.MY_WEATHER_APP_ID}}
+          MY_WEATHER_API: ${{ secrets.MY_WEATHER_API}}
+          LAT: ${{ secrets.LAT}}
+          LON: ${{ secrets.LON}}
         run: python weather.py
