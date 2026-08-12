@@ -5,6 +5,8 @@ MY_EMAIL= os.environ.get("MY_EMAIL")
 MY_PASSWORD=os.environ.get("MY_PASSWORD")
 weather_api = os.environ.get("MY_WEATHER_API")
 APP_ID = os.environ.get("MY_WEATHER_APP_ID")
+LAT = os.environ.get("LAT")
+LON = os.environ.get("LON")
 OWM_WEATHER = "https://api.openweathermap.org/data/2.5/forecast"
 weather_params = {"lat":LAT,"lon":LON,"appid":APP_ID,"cnt":4}
 
